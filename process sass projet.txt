@@ -1,0 +1,27 @@
+
+Mac-mini-de-MM:~ macmini$ ls
+Applications
+Bianciotto_2_19032021.github.io
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+OnionShare
+Pictures
+Public
+Soulseek Chat Logs
+Wine Files
+bianciotto.compte@gmail.com Creative Cloud Files
+css
+dj.olive-r@orange.fr Creative Cloud Files
+o.bianciotto@orange.fr Creative Cloud Files
+Mac-mini-de-MM:~ macmini$ cd desktop/ExoKeyFrame
+Mac-mini-de-MM:ExoKeyFrame macmini$ pwd
+/Users/macmini/desktop/ExoKeyFrame
+Mac-mini-de-MM:ExoKeyFrame macmini$ sass --watch style.scss:style.css
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+/Library/Ruby/Gems/2.3.0/gems/rb-fsevent-0.10.4/lib/rb-fsevent/fsevent.rb:140: warning: Insecure world writable dir /usr/local/bin in PATH, mode 040777
+

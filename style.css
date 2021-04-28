@@ -1,0 +1,81 @@
+.menu {
+  min-width: 33vh;
+  max-width: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #de15bd;
+  overflow: hidden;
+  transform-origin: top left;
+  position: relative;
+  animation: menu 661ms both;
+  z-index: -10; }
+  .menu__open-accent--1 {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f4f9f8;
+    transform-origin: top left;
+    animation: menu 450ms 275ms both;
+    z-index: -1; }
+  .menu__open-accent--2 {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f4f9f8;
+    transform-origin: top left;
+    animation: menu 450ms 150ms both;
+    z-index: -1;
+    background: #0E397F;
+    z-index: -2; }
+  .menu__item {
+    padding: .75rem;
+    margin: .25rem;
+    background: #fff;
+    animation: menu__item 810ms cubic-bezier(0.1, 0.9, 0.1, 1) both;
+    position: relative; }
+    .menu__item-accent {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: .25rem;
+      background-color: #15dea5;
+      animation: menu__accent 400ms both; }
+      .menu__item-accent--active {
+        background-color: #0E397F; }
+    .menu__item--1 {
+      animation-delay: 475ms; }
+      .menu__item--1 > div {
+        animation-delay: 712ms; }
+    .menu__item--2 {
+      animation-delay: 546ms; }
+      .menu__item--2 > div {
+        animation-delay: 805ms; }
+    .menu__item--3 {
+      animation-delay: 632ms; }
+      .menu__item--3 > div {
+        animation-delay: 914ms; }
+
+@keyframes menu {
+  0% {
+    transform: scale(0, 0.07); }
+  33% {
+    transform: scale(1, 0.07);
+    animation-timing-function: cubic-bezier(0.73, 0.01, 0.2, 0.99); } }
+@keyframes menu__item {
+  0% {
+    transform: translateX(-110%); } }
+@keyframes menu__accent {
+  0% {
+    transform: scaleY(0); } }
+
+/*# sourceMappingURL=style.css.map */
