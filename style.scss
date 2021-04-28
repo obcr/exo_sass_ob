@@ -1,5 +1,5 @@
 $cd-navy: #0E397F;
-$cd-mint: #15dea5;
+$cd-mint: #e1d312;
 
 @mixin menu__open-accent($dur, $delay) {
     content: "";
@@ -15,7 +15,7 @@ $cd-mint: #15dea5;
 }
 
 .menu {
-    min-width: 33vh;
+    min-width: 60vh;
     max-width: 20vh;
     display: flex;
     flex-direction: column;
